@@ -1,0 +1,33 @@
+﻿@{
+    ViewBag.Title = "Anunturi";
+}
+
+<h2 class="text-center mt-5">Afisare anunt</h2>
+<br/>
+
+@if (ViewBag.Message != null)
+{
+    <h2 class="alert alert-success p-3 rounded-3 text-center mb-5">@ViewBag.Message</h2>
+}
+
+<div class="d-flex justify-content-center gap-2">
+    <a class="btn btn-outline-success" asp-controller="Categories" asp-action="Index">Afișare categorii</a>
+    <a class="btn btn-outline-success" asp-controller="Listings" asp-action="New">Adaugă anunt</a>
+</div>
+
+@foreach (var ev in ViewBag.Listings)
+{
+    <div class="card">
+        <div class="card-body">
+            <h3 class="card-title alert-success py-3 px-3 rounded-2">@ev.Title</h3>
+            <div class="card-text">@ev.Description</div>
+            <div class="d-flex justify-content-between flex-row mt-5">
+                <div><i class="bi bi-globe"></i> @ev.Category.CategoryName</div>
+                <a class="btn btn-success" asp-controller="Listings" asp-action="Show" asp-route-id="@ev.Id">Afișare anunt</a>
+                <span class="alert-success px-1 align-content-center">@ev.Date</span>
+            </div>
+        </div>
+    </div>
+    <br/>
+    <br/>
+}
