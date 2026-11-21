@@ -1,22 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\School\\FMI\\a2\\s1-DAW\\CampusMarket\\CampusMarket\\",
+  "WorkspaceRootPath": "D:\\ASP .NET\\Campus Market\\Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7EFEDF81-F3E9-84A9-8BB1-D222131A468D}|CampusMarket.csproj|d:\\school\\fmi\\a2\\s1-daw\\campusmarket\\campusmarket\\views\\listings\\show.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7EFEDF81-F3E9-84A9-8BB1-D222131A468D}|CampusMarket.csproj|solutionrelative:views\\listings\\show.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EFEDF81-F3E9-84A9-8BB1-D222131A468D}|CampusMarket.csproj|d:\\school\\fmi\\a2\\s1-daw\\campusmarket\\campusmarket\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EFEDF81-F3E9-84A9-8BB1-D222131A468D}|CampusMarket.csproj|solutionrelative:models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EFEDF81-F3E9-84A9-8BB1-D222131A468D}|CampusMarket.csproj|d:\\school\\fmi\\a2\\s1-daw\\campusmarket\\campusmarket\\views\\listings\\new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7EFEDF81-F3E9-84A9-8BB1-D222131A468D}|CampusMarket.csproj|solutionrelative:views\\listings\\new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EFEDF81-F3E9-84A9-8BB1-D222131A468D}|CampusMarket.csproj|d:\\school\\fmi\\a2\\s1-daw\\campusmarket\\campusmarket\\models\\listing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EFEDF81-F3E9-84A9-8BB1-D222131A468D}|CampusMarket.csproj|solutionrelative:models\\listing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\ASP .NET\\Campus Market\\Project\\Data\\Migrations\\20261121131656_UpdatePackage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Migrations\\20261121131656_UpdatePackage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,6 +16,10 @@
           "DockedWidth": 200,
           "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
@@ -42,60 +34,21 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Review.cs",
-              "DocumentMoniker": "D:\\School\\FMI\\a2\\s1-DAW\\CampusMarket\\CampusMarket\\Models\\Review.cs",
-              "RelativeDocumentMoniker": "Models\\Review.cs",
-              "ToolTip": "D:\\School\\FMI\\a2\\s1-DAW\\CampusMarket\\CampusMarket\\Models\\Review.cs",
-              "RelativeToolTip": "Models\\Review.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-21T12:02:32.013Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Show.cshtml",
-              "DocumentMoniker": "D:\\School\\FMI\\a2\\s1-DAW\\CampusMarket\\CampusMarket\\Views\\Listings\\Show.cshtml",
-              "RelativeDocumentMoniker": "Views\\Listings\\Show.cshtml",
-              "ToolTip": "D:\\School\\FMI\\a2\\s1-DAW\\CampusMarket\\CampusMarket\\Views\\Listings\\Show.cshtml",
-              "RelativeToolTip": "Views\\Listings\\Show.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-21T12:01:00.171Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Listing.cs",
-              "DocumentMoniker": "D:\\School\\FMI\\a2\\s1-DAW\\CampusMarket\\CampusMarket\\Models\\Listing.cs",
-              "RelativeDocumentMoniker": "Models\\Listing.cs",
-              "ToolTip": "D:\\School\\FMI\\a2\\s1-DAW\\CampusMarket\\CampusMarket\\Models\\Listing.cs",
-              "RelativeToolTip": "Models\\Listing.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAACcAAAA8AAAAAAAAAA==",
+              "Title": "20261121131656_UpdatePackage.cs",
+              "DocumentMoniker": "D:\\ASP .NET\\Campus Market\\Project\\Data\\Migrations\\20261121131656_UpdatePackage.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20261121131656_UpdatePackage.cs",
+              "ToolTip": "D:\\ASP .NET\\Campus Market\\Project\\Data\\Migrations\\20261121131656_UpdatePackage.cs",
+              "RelativeToolTip": "Data\\Migrations\\20261121131656_UpdatePackage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-21T11:58:42.468Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "New.cshtml",
-              "DocumentMoniker": "D:\\School\\FMI\\a2\\s1-DAW\\CampusMarket\\CampusMarket\\Views\\Listings\\New.cshtml",
-              "RelativeDocumentMoniker": "Views\\Listings\\New.cshtml",
-              "ToolTip": "D:\\School\\FMI\\a2\\s1-DAW\\CampusMarket\\CampusMarket\\Views\\Listings\\New.cshtml",
-              "RelativeToolTip": "Views\\Listings\\New.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-21T11:57:00.295Z",
+              "WhenOpened": "2026-11-21T13:16:56.319Z",
               "EditorCaption": ""
             }
           ]
         },
         {
-          "DockedWidth": 812,
+          "DockedWidth": 1099,
           "SelectedChildIndex": -1,
           "Children": [
             {

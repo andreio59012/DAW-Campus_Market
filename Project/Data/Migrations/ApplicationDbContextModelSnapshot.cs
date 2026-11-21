@@ -120,6 +120,9 @@ namespace CampusMarket.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<DateTime>("Date")
+                        .HasColumnType("datetime2");
+
                     b.Property<int>("ListingId")
                         .HasColumnType("int");
 

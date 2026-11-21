@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CampusMarket")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+908722286e7d4b501704d3231e8bb0bb5eeeb417")]
 [assembly: System.Reflection.AssemblyProductAttribute("CampusMarket")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CampusMarket")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
