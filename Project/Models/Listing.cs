@@ -4,11 +4,28 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace CampusMarket.Models
 {
+    public enum ProductStatus
+    {
+        [Display(Name = "Nou")]
+        New = 1,
+        [Display(Name = "Ca nou")]
+        LikeNew = 2,
+        [Display(Name = "Folosit")]
+        Used = 3
+    }
+    public enum ListingStatus
+    {
+        [Display(Name = "În așteptare")]
+        Pending = 0,
+
+        [Display(Name = "Aprobat")]
+        Approved = 1,
+
+        [Display(Name = "Respins")]
+        Rejected = 2
+    }
     public class Listing
     {
-        public enum ProductStatusEnum { Nou, CaNou, Folosit }
-        public enum ListingStatusEnum { Draft, WaitingForReview, NeedsChanges, Published }
-
         // DB
         [Key]
         public int Id { get; set; }
@@ -19,15 +36,24 @@ namespace CampusMarket.Models
         [Required(ErrorMessage = "Descrierea este obligatorie")]
         public string Description { get; set; } = string.Empty;
 
-        [Required(ErrorMessage = "Pretul este obligatorie")]
-        public double Price { get; set; } = 0.0;
+        // Decimal is standard option for prices in C# / SQL Server
+        [Required(ErrorMessage = "Prețul este obligatoriu")]
+        [Range(0.01, 100000000, ErrorMessage = "Prețul trebuie să fie mai mare decât 0 și maximum 100.000.000")]
+        [Column(TypeName = "decimal(18,2)")]
+        public decimal Price { get; set; }
 
         [Required(ErrorMessage = "Categoria este obligatorie")]
         public int CategoryId { get; set; }
 
-        public ProductStatusEnum ProductStatus { get; set; } = ProductStatusEnum.Folosit;
-        public ListingStatusEnum ListingStatus { get; set; } = ListingStatusEnum.Draft;
-        public string ListingAdminFeedback { get; set; } = string.Empty;
+        public string? ImagePath { get; set; }
+        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+        public DateTime? PublishedAt { get; set; }
+
+        public ProductStatus ProductStatus { get; set; } = ProductStatus.Used;
+        public ListingStatus ListingStatus { get; set; } = ListingStatus.Pending;
+        public string? ListingAdminFeedback { get; set; }
+
+        [Range(0,100000, ErrorMessage = "Stocul nu trebuie să fie negativ")]
         public int Stock { get; set; } = 1;
 
         // Virtual Getters
